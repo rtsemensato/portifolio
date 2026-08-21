@@ -71,4 +71,14 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/rtsemensato/pomodoroMoveit",
     liveUrl: "https://pomodoro-moveit.vercel.app",
   },
+  {
+    slug: "link-shortener",
+    title: "Link Shortener",
+    subtitleKey: "proj.linkshortener.sub",
+    descriptionKey: "proj.linkshortener.desc",
+    tags: ["NestJS", "Prisma", "PostgreSQL", "JWT"],
+    isPrivate: false,
+    repoUrl: "https://github.com/rtsemensato/link-shortener",
+    liveUrl: "https://link-shortener-t8lh.onrender.com",
+  },
 ];

@@ -96,6 +96,9 @@ export const translations = {
     "proj.pomodoro.sub": "Pomodoro com gamificação e desafios de pausa ativa",
     "proj.pomodoro.desc":
       "Ciclos de foco de 25 minutos que rendem experiência e, ao final de cada ciclo, sorteiam um desafio de alongamento corporal ou descanso visual. Completar desafios sobe de nível. Estado (nível, xp, desafios completados) persistido em cookies, lidos no servidor via getServerSideProps. Adaptado a partir do projeto Move.it, construído numa Next Level Week da Rocketseat.",
+    "proj.linkshortener.sub": "Encurtador de links com autenticação JWT e estatísticas de clique",
+    "proj.linkshortener.desc":
+      "Registro e login com JWT (access token curto e refresh token rotativo, hash SHA-256), CRUD de links com slug automático ou customizado, redirect público com contagem de cliques e estatísticas por dia. Rate limiting no login, validação com class-validator e documentação OpenAPI via Swagger.",
     "proj.viewCode": "Ver código",
     "proj.viewLive": "Ver ao vivo",
     "proj.note": "Furafila e ObraLog têm repositório privado, mas posso mostrar o código em uma conversa.",
@@ -195,6 +198,9 @@ export const translations = {
     "proj.pomodoro.sub": "Pomodoro with gamification and active-break challenges",
     "proj.pomodoro.desc":
       "25-minute focus cycles that earn experience points and, at the end of each cycle, roll a random stretching or eye-rest challenge. Completing challenges levels you up. State (level, xp, completed challenges) persisted in cookies, read server-side via getServerSideProps. Adapted from the Move.it project, built during a Rocketseat Next Level Week.",
+    "proj.linkshortener.sub": "Link shortener with JWT authentication and click stats",
+    "proj.linkshortener.desc":
+      "Register and login with JWT (short-lived access token, rotating SHA-256-hashed refresh token), link CRUD with automatic or custom slugs, public redirect with click tracking and daily stats. Rate limiting on login, class-validator input validation and OpenAPI docs via Swagger.",
     "proj.viewCode": "View code",
     "proj.viewLive": "View live",
     "proj.note": "Furafila and ObraLog have private repositories, but I'm happy to walk through the code in a conversation.",
