@@ -108,7 +108,8 @@ export const translations = {
     "proj.viewCode": "Ver código",
     "proj.viewLive": "Ver ao vivo",
     "proj.tryExpoGo": "Testar no Expo Go",
-    "proj.expoGoHint": "Escaneia com a câmera do celular ou abre direto no app Expo Go.",
+    "proj.expoGoHint": "Precisa do app Expo Go instalado (grátis, iOS e Android). Com ele aberto, escaneia o QR code abaixo.",
+    "proj.expoGoDownload": "Não tem o Expo Go ainda? Baixar",
     "proj.note": "Furafila e ObraLog têm repositório privado, mas posso mostrar o código em uma conversa.",
 
     "contact.eyebrow": "// contato",
@@ -217,7 +218,8 @@ export const translations = {
       "Native app in React Native (Expo): every expense is saved to the device's SQLite before anything else, syncing with the server once connectivity returns or on demand. The web version below runs the same code as a no-install preview, but without the offline guarantee, which is exclusive to the native app (QR code below). Conflicts between devices resolved by last-write-wins, tested on both sides (client and server). Sync server in Node.js and Express.",
     "proj.viewCode": "View code",
     "proj.tryExpoGo": "Try it on Expo Go",
-    "proj.expoGoHint": "Scan with your phone's camera, or open directly in the Expo Go app.",
+    "proj.expoGoHint": "Requires the Expo Go app (free, iOS and Android). With it open, scan the QR code below.",
+    "proj.expoGoDownload": "Don't have Expo Go yet? Get it",
     "proj.viewLive": "View live",
     "proj.note": "Furafila and ObraLog have private repositories, but I'm happy to walk through the code in a conversation.",
 

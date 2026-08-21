@@ -57,6 +57,10 @@ export default function Projects() {
               )}
               {project.expoGoQr && expandedQr === project.slug && (
                 <div className="project-qr">
+                  <p className="project-qr-hint">{t("proj.expoGoHint")}</p>
+                  <a className="project-link" href="https://expo.dev/go" target="_blank" rel="noopener">
+                    {t("proj.expoGoDownload")} ↗
+                  </a>
                   {/* <img> comum, não next/image: é um SVG estático já
                       vetorial, e o otimizador do next/image recusa SVG por
                       padrão (retorna 400) a menos que
@@ -64,7 +68,6 @@ export default function Projects() {
                       next.config, o que não vale a pena só por isso. */}
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src={project.expoGoQr.imageSrc} alt={t("proj.tryExpoGo")} width={140} height={140} />
-                  <p className="project-qr-hint">{t("proj.expoGoHint")}</p>
                   <a className="project-link" href={project.expoGoQr.deepLink}>
                     {project.expoGoQr.deepLink}
                   </a>
