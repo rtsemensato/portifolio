@@ -91,4 +91,14 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/rtsemensato/appointment-scheduler",
     liveUrl: "https://appointment-scheduler-beta-six.vercel.app",
   },
+  {
+    slug: "expense-tracker",
+    title: "Gastos Offline",
+    subtitleKey: "proj.expensetracker.sub",
+    descriptionKey: "proj.expensetracker.desc",
+    tags: ["React Native", "Expo", "SQLite", "Node.js", "Offline-first"],
+    isPrivate: false,
+    repoUrl: "https://github.com/rtsemensato/expense-tracker",
+    liveUrl: "https://expense-tracker-six-lime-33.vercel.app",
+  },
 ];
