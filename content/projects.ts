@@ -8,13 +8,10 @@ export type Project = {
   descriptionKey: TranslationKey;
   tags: string[];
   isPrivate: boolean;
-  /**
-   * URL do repositório, só deve existir quando isPrivate = false.
-   * Furafila e ObraLog são privados: nunca preencher repoUrl para eles
-   * (brief, seção 2, regra 5). Nenhum componente ainda renderiza este
-   * campo: é só o gancho para um projeto público futuro.
-   */
+  /** URL do repositório. Só deve existir quando isPrivate = false. */
   repoUrl?: string;
+  /** URL do app hospedado, quando houver uma demo rodando. */
+  liveUrl?: string;
 };
 
 export const projects: Project[] = [
@@ -33,5 +30,25 @@ export const projects: Project[] = [
     descriptionKey: "proj.obralog.desc",
     tags: ["React Native", "Expo", "SQLite", ".NET 9", "Offline-first"],
     isPrivate: true,
+  },
+  {
+    slug: "kanban",
+    title: "Kanban",
+    subtitleKey: "proj.kanban.sub",
+    descriptionKey: "proj.kanban.desc",
+    tags: ["Vue 3", "Pinia", "TypeScript", "Vite"],
+    isPrivate: false,
+    repoUrl: "https://github.com/rtsemensato/kanban-vue",
+    liveUrl: "https://kanban-vue-seven.vercel.app",
+  },
+  {
+    slug: "task-manager",
+    title: "Task Manager",
+    subtitleKey: "proj.taskmanager.sub",
+    descriptionKey: "proj.taskmanager.desc",
+    tags: ["Angular", "FastAPI", "SQLAlchemy", "JWT"],
+    isPrivate: false,
+    repoUrl: "https://github.com/rtsemensato/task-manager",
+    liveUrl: "https://task-manager-pi-brown.vercel.app",
   },
 ];

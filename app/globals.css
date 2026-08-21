@@ -490,6 +490,20 @@
   font-size: 0.95rem;
   margin-bottom: 16px;
 }
+.project-links {
+  display: flex;
+  gap: 18px;
+  margin-top: 14px;
+}
+.project-link {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--color-mute);
+  transition: color 0.15s ease;
+}
+.project-link:hover {
+  color: var(--color-teal);
+}
 .project-note {
   color: var(--color-mute-2);
   font-size: 0.85rem;

@@ -84,8 +84,15 @@ export const translations = {
     "proj.obralog.sub": "App de medições e diário de obra, offline-first",
     "proj.obralog.desc":
       "React Native com Expo e SQLite local: toda escrita é salva primeiro no dispositivo, sem esperar rede. Sincronização bidirecional com o backend, incluindo resolução de conflitos e upload de fotos. Backend em .NET 9 Minimal APIs + EF Core, atuando como intermediário para um sistema de terceiro.",
-    "proj.note":
-      "Mais projetos pessoais a caminho, um por stack diferente. Os repositórios acima são privados, mas posso mostrar o código em uma conversa.",
+    "proj.kanban.sub": "Quadro Kanban com drag-and-drop",
+    "proj.kanban.desc":
+      "Colunas fixas de A fazer, Fazendo e Feito, cartões com título e descrição, arrastar e soltar nativo via HTML5 Drag and Drop API. Persistência local no navegador, sem backend. Feito em Vue 3 com Composition API e Pinia para gerenciamento de estado.",
+    "proj.taskmanager.sub": "Gerenciador de tarefas com autenticação JWT",
+    "proj.taskmanager.desc":
+      "Cadastro e login com senha hasheada em bcrypt, tokens JWT, CRUD de tarefas isolado por usuário. Front-end em Angular com standalone components, signals e forms reativos; back-end em FastAPI com SQLAlchemy. Testes automatizados cobrindo autenticação e as rotas de tarefas.",
+    "proj.viewCode": "Ver código",
+    "proj.viewLive": "Ver ao vivo",
+    "proj.note": "Furafila e ObraLog têm repositório privado, mas posso mostrar o código em uma conversa.",
 
     "contact.eyebrow": "// contato",
     "contact.title": "Vamos conversar",
@@ -170,8 +177,15 @@ export const translations = {
     "proj.obralog.sub": "Offline-first construction site logging app",
     "proj.obralog.desc":
       "React Native with Expo and local SQLite: every write is saved on-device first, without waiting on the network. Bidirectional sync with the backend, including conflict resolution and photo upload. Backend in .NET 9 Minimal APIs + EF Core, acting as a bridge to a third-party system.",
-    "proj.note":
-      "More personal projects on the way, one per stack. The repos above are private, but I'm happy to walk through the code in a conversation.",
+    "proj.kanban.sub": "Kanban board with drag-and-drop",
+    "proj.kanban.desc":
+      "Fixed To do, Doing and Done columns, cards with title and description, native drag-and-drop via the HTML5 Drag and Drop API. Local persistence in the browser, no backend. Built with Vue 3 Composition API and Pinia for state management.",
+    "proj.taskmanager.sub": "Task manager with JWT authentication",
+    "proj.taskmanager.desc":
+      "Sign up and login with bcrypt-hashed passwords, JWT tokens, task CRUD scoped per user. Angular front-end with standalone components, signals and reactive forms; FastAPI back-end with SQLAlchemy. Automated tests covering authentication and the task routes.",
+    "proj.viewCode": "View code",
+    "proj.viewLive": "View live",
+    "proj.note": "Furafila and ObraLog have private repositories, but I'm happy to walk through the code in a conversation.",
 
     "contact.eyebrow": "// contact",
     "contact.title": "Let's talk",

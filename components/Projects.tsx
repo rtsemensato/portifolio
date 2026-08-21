@@ -29,6 +29,20 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
+              {(project.repoUrl || project.liveUrl) && (
+                <div className="project-links">
+                  {project.repoUrl && (
+                    <a className="project-link" href={project.repoUrl} target="_blank" rel="noopener">
+                      {t("proj.viewCode")} ↗
+                    </a>
+                  )}
+                  {project.liveUrl && (
+                    <a className="project-link" href={project.liveUrl} target="_blank" rel="noopener">
+                      {t("proj.viewLive")} ↗
+                    </a>
+                  )}
+                </div>
+              )}
             </article>
           ))}
         </div>
