@@ -102,11 +102,13 @@ export const translations = {
     "proj.appointmentscheduler.sub": "Agendamento de horários com regra de não sobreposição isolada no domínio",
     "proj.appointmentscheduler.desc":
       "API em .NET 9 (Minimal API) com arquitetura em camadas (Domain/Application/Infrastructure): a regra de não permitir dois agendamentos do mesmo profissional no mesmo horário mora isolada no domínio, coberta por testes unitários e de integração com Testcontainers. EF Core + PostgreSQL, FluentValidation, documentação OpenAPI via Swagger. Front-end em Next.js com uma grade de horários que deixa tentar agendar em cima de um horário ocupado, pra ver a API recusar de verdade.",
-    "proj.expensetracker.sub": "Controle de gastos offline-first com sincronização por \"mais recente vence\"",
+    "proj.expensetracker.sub": "Controle de gastos offline-first, com sincronização por \"mais recente vence\"",
     "proj.expensetracker.desc":
-      "React Native (Expo) rodando o mesmo código nativo, via Expo Go, e como site (Expo Web): toda despesa é salva localmente primeiro, com SQLite no app nativo e localStorage na versão web atrás da mesma interface. Fila de sincronização empurra as pendências e resolve conflito entre dispositivos por \"mais recente vence\", regra testada nos dois lados (client e servidor). Servidor de sincronização em Node.js e Express.",
+      "App nativo em React Native (Expo): toda despesa é salva no SQLite do dispositivo antes de qualquer coisa, sincronizando com o servidor quando a conexão volta ou sob demanda. A versão web abaixo roda o mesmo código como vitrine de teste, sem precisar instalar nada, mas sem a garantia de funcionar sem internet, que é exclusiva do app nativo (QR code abaixo). Conflito entre dispositivos resolvido por \"mais recente vence\", testado nos dois lados (client e servidor). Servidor de sincronização em Node.js e Express.",
     "proj.viewCode": "Ver código",
     "proj.viewLive": "Ver ao vivo",
+    "proj.tryExpoGo": "Testar no Expo Go",
+    "proj.expoGoHint": "Escaneia com a câmera do celular ou abre direto no app Expo Go.",
     "proj.note": "Furafila e ObraLog têm repositório privado, mas posso mostrar o código em uma conversa.",
 
     "contact.eyebrow": "// contato",
@@ -212,8 +214,10 @@ export const translations = {
       "API in .NET 9 (Minimal API) with a layered architecture (Domain/Application/Infrastructure): the rule preventing two overlapping appointments for the same professional lives isolated in the domain layer, covered by unit and Testcontainers integration tests. EF Core + PostgreSQL, FluentValidation, OpenAPI docs via Swagger. Next.js front-end with an interactive time-slot grid that lets you try booking an already-taken slot, to see the API reject it for real.",
     "proj.expensetracker.sub": "Offline-first expense tracker with last-write-wins sync",
     "proj.expensetracker.desc":
-      "React Native (Expo) running the same code natively via Expo Go and as a website (Expo Web): every expense is saved locally first, with SQLite on the native app and localStorage on the web build behind the same interface. A sync queue pushes pending changes and resolves conflicts between devices by last-write-wins, a rule tested on both sides (client and server). Sync server in Node.js and Express.",
+      "Native app in React Native (Expo): every expense is saved to the device's SQLite before anything else, syncing with the server once connectivity returns or on demand. The web version below runs the same code as a no-install preview, but without the offline guarantee, which is exclusive to the native app (QR code below). Conflicts between devices resolved by last-write-wins, tested on both sides (client and server). Sync server in Node.js and Express.",
     "proj.viewCode": "View code",
+    "proj.tryExpoGo": "Try it on Expo Go",
+    "proj.expoGoHint": "Scan with your phone's camera, or open directly in the Expo Go app.",
     "proj.viewLive": "View live",
     "proj.note": "Furafila and ObraLog have private repositories, but I'm happy to walk through the code in a conversation.",
 
