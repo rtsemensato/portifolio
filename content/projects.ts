@@ -107,7 +107,7 @@ export const projects: Project[] = [
     expoGoQr: {
       imageSrc: "/expo-go/gastos-offline.svg",
       deepLink:
-        "exp://u.expo.dev/05e9a908-85e2-47d3-828c-8ef7ec748724?runtime-version=1.0.0&channel-name=production",
+        "exp://u.expo.dev/05e9a908-85e2-47d3-828c-8ef7ec748724?runtime-version=exposdk%3A54.0.0&channel-name=production",
     },
   },
 ];
