@@ -51,4 +51,14 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/rtsemensato/task-manager",
     liveUrl: "https://task-manager-pi-brown.vercel.app",
   },
+  {
+    slug: "ui-kit",
+    title: "UI Kit",
+    subtitleKey: "proj.uikit.sub",
+    descriptionKey: "proj.uikit.desc",
+    tags: ["React", "TypeScript", "Storybook", "Vitest"],
+    isPrivate: false,
+    repoUrl: "https://github.com/rtsemensato/ui-kit",
+    liveUrl: "https://ui-kit-ochre.vercel.app",
+  },
 ];

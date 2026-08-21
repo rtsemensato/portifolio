@@ -90,6 +90,9 @@ export const translations = {
     "proj.taskmanager.sub": "Gerenciador de tarefas com autenticação JWT",
     "proj.taskmanager.desc":
       "Cadastro e login com senha hasheada em bcrypt, tokens JWT, CRUD de tarefas isolado por usuário. Front-end em Angular com standalone components, signals e forms reativos; back-end em FastAPI com SQLAlchemy. Testes automatizados cobrindo autenticação e as rotas de tarefas.",
+    "proj.uikit.sub": "Biblioteca de componentes React documentada com Storybook",
+    "proj.uikit.desc":
+      "12 componentes acessíveis e testados: Button, Input, Select, Modal, Toast, Card, Badge, Tabs, Tooltip, Accordion, Skeleton e FormField com React Hook Form + Zod. CSS Modules com os mesmos design tokens deste portfólio, testes unitários com Vitest e Testing Library, e testes de interação em navegador real via Storybook.",
     "proj.viewCode": "Ver código",
     "proj.viewLive": "Ver ao vivo",
     "proj.note": "Furafila e ObraLog têm repositório privado, mas posso mostrar o código em uma conversa.",
@@ -183,6 +186,9 @@ export const translations = {
     "proj.taskmanager.sub": "Task manager with JWT authentication",
     "proj.taskmanager.desc":
       "Sign up and login with bcrypt-hashed passwords, JWT tokens, task CRUD scoped per user. Angular front-end with standalone components, signals and reactive forms; FastAPI back-end with SQLAlchemy. Automated tests covering authentication and the task routes.",
+    "proj.uikit.sub": "React component library documented with Storybook",
+    "proj.uikit.desc":
+      "12 accessible, tested components: Button, Input, Select, Modal, Toast, Card, Badge, Tabs, Tooltip, Accordion, Skeleton and FormField with React Hook Form + Zod. CSS Modules sharing this portfolio's design tokens, unit tests with Vitest and Testing Library, and real-browser interaction tests via Storybook.",
     "proj.viewCode": "View code",
     "proj.viewLive": "View live",
     "proj.note": "Furafila and ObraLog have private repositories, but I'm happy to walk through the code in a conversation.",
