@@ -93,6 +93,9 @@ export const translations = {
     "proj.uikit.sub": "Biblioteca de componentes React documentada com Storybook",
     "proj.uikit.desc":
       "12 componentes acessíveis e testados: Button, Input, Select, Modal, Toast, Card, Badge, Tabs, Tooltip, Accordion, Skeleton e FormField com React Hook Form + Zod. CSS Modules com os mesmos design tokens deste portfólio, testes unitários com Vitest e Testing Library, e testes de interação em navegador real via Storybook.",
+    "proj.pomodoro.sub": "Pomodoro com gamificação e desafios de pausa ativa",
+    "proj.pomodoro.desc":
+      "Ciclos de foco de 25 minutos que rendem experiência e, ao final de cada ciclo, sorteiam um desafio de alongamento corporal ou descanso visual. Completar desafios sobe de nível. Estado (nível, xp, desafios completados) persistido em cookies, lidos no servidor via getServerSideProps. Adaptado a partir do projeto Move.it, construído numa Next Level Week da Rocketseat.",
     "proj.viewCode": "Ver código",
     "proj.viewLive": "Ver ao vivo",
     "proj.note": "Furafila e ObraLog têm repositório privado, mas posso mostrar o código em uma conversa.",
@@ -189,6 +192,9 @@ export const translations = {
     "proj.uikit.sub": "React component library documented with Storybook",
     "proj.uikit.desc":
       "12 accessible, tested components: Button, Input, Select, Modal, Toast, Card, Badge, Tabs, Tooltip, Accordion, Skeleton and FormField with React Hook Form + Zod. CSS Modules sharing this portfolio's design tokens, unit tests with Vitest and Testing Library, and real-browser interaction tests via Storybook.",
+    "proj.pomodoro.sub": "Pomodoro with gamification and active-break challenges",
+    "proj.pomodoro.desc":
+      "25-minute focus cycles that earn experience points and, at the end of each cycle, roll a random stretching or eye-rest challenge. Completing challenges levels you up. State (level, xp, completed challenges) persisted in cookies, read server-side via getServerSideProps. Adapted from the Move.it project, built during a Rocketseat Next Level Week.",
     "proj.viewCode": "View code",
     "proj.viewLive": "View live",
     "proj.note": "Furafila and ObraLog have private repositories, but I'm happy to walk through the code in a conversation.",

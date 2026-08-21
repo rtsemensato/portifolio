@@ -61,4 +61,14 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/rtsemensato/ui-kit",
     liveUrl: "https://ui-kit-ochre.vercel.app",
   },
+  {
+    slug: "pomodoro-moveit",
+    title: "Pomodoro Move.it",
+    subtitleKey: "proj.pomodoro.sub",
+    descriptionKey: "proj.pomodoro.desc",
+    tags: ["Next.js", "React", "TypeScript", "Web Notifications API"],
+    isPrivate: false,
+    repoUrl: "https://github.com/rtsemensato/pomodoroMoveit",
+    liveUrl: "https://pomodoro-moveit.vercel.app",
+  },
 ];
