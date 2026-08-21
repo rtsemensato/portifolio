@@ -99,6 +99,9 @@ export const translations = {
     "proj.linkshortener.sub": "Encurtador de links com autenticação JWT e estatísticas de clique",
     "proj.linkshortener.desc":
       "Registro e login com JWT (access token curto e refresh token rotativo, hash SHA-256), CRUD de links com slug automático ou customizado, redirect público com contagem de cliques e estatísticas por dia. Rate limiting no login, validação com class-validator e documentação OpenAPI via Swagger.",
+    "proj.appointmentscheduler.sub": "Agendamento de horários com regra de não sobreposição isolada no domínio",
+    "proj.appointmentscheduler.desc":
+      "API em .NET 9 (Minimal API) com arquitetura em camadas (Domain/Application/Infrastructure): a regra de não permitir dois agendamentos do mesmo profissional no mesmo horário mora isolada no domínio, coberta por testes unitários e de integração com Testcontainers. EF Core + PostgreSQL, FluentValidation, documentação OpenAPI via Swagger. Front-end em Next.js com uma grade de horários que deixa tentar agendar em cima de um horário ocupado, pra ver a API recusar de verdade.",
     "proj.viewCode": "Ver código",
     "proj.viewLive": "Ver ao vivo",
     "proj.note": "Furafila e ObraLog têm repositório privado, mas posso mostrar o código em uma conversa.",
@@ -201,6 +204,9 @@ export const translations = {
     "proj.linkshortener.sub": "Link shortener with JWT authentication and click stats",
     "proj.linkshortener.desc":
       "Register and login with JWT (short-lived access token, rotating SHA-256-hashed refresh token), link CRUD with automatic or custom slugs, public redirect with click tracking and daily stats. Rate limiting on login, class-validator input validation and OpenAPI docs via Swagger.",
+    "proj.appointmentscheduler.sub": "Appointment scheduling with the no-overlap rule isolated in the domain",
+    "proj.appointmentscheduler.desc":
+      "API in .NET 9 (Minimal API) with a layered architecture (Domain/Application/Infrastructure): the rule preventing two overlapping appointments for the same professional lives isolated in the domain layer, covered by unit and Testcontainers integration tests. EF Core + PostgreSQL, FluentValidation, OpenAPI docs via Swagger. Next.js front-end with an interactive time-slot grid that lets you try booking an already-taken slot, to see the API reject it for real.",
     "proj.viewCode": "View code",
     "proj.viewLive": "View live",
     "proj.note": "Furafila and ObraLog have private repositories, but I'm happy to walk through the code in a conversation.",

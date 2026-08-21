@@ -81,4 +81,14 @@ export const projects: Project[] = [
     repoUrl: "https://github.com/rtsemensato/link-shortener",
     liveUrl: "https://link-shortener-t8lh.onrender.com",
   },
+  {
+    slug: "appointment-scheduler",
+    title: "Appointment Scheduler",
+    subtitleKey: "proj.appointmentscheduler.sub",
+    descriptionKey: "proj.appointmentscheduler.desc",
+    tags: [".NET 9", "EF Core", "PostgreSQL", "Next.js"],
+    isPrivate: false,
+    repoUrl: "https://github.com/rtsemensato/appointment-scheduler",
+    liveUrl: "https://appointment-scheduler-beta-six.vercel.app",
+  },
 ];
