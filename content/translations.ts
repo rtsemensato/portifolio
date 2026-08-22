@@ -18,6 +18,7 @@ export const translations = {
     "hero.role": "Engenheiro de Software · Front-End & Full Stack",
     "hero.lede":
       "Construo interfaces e sistemas que continuam de pé bem depois do deploy. 10+ anos entre front-end, arquitetura e integrações que precisam funcionar de verdade.",
+    "hero.status": "Disponível para novas oportunidades",
     "hero.ctaEmail": "Enviar e-mail",
 
     "stat.years": "anos de experiência",
@@ -42,7 +43,7 @@ export const translations = {
     "exp.gelic.b3":
       "React Query para data fetching com cache por entidade; formulários complexos com React Hook Form + Zod/Yup",
     "exp.gelic.b4":
-      "Migração de autenticação para cookies HttpOnly com camada BFF própria, reduzindo exposição a XSS/CSRF",
+      "Migração de autenticação para cookies HttpOnly com SameSite, reduzindo exposição a XSS/CSRF, além de definição de Content Security Policy",
     "exp.gelic.b5": "Principal referência técnica de front-end do time; ajustes pontuais em .NET Core",
 
     "exp.hap.role": "Líder Técnico de Engenharia de Software",
@@ -58,7 +59,7 @@ export const translations = {
     "exp.jd3.role": "Júnior → Pleno → Sênior · 8 anos",
     "exp.jd3.b1": "Trajetória completa dentro da mesma empresa, boa parte do período como único desenvolvedor",
     "exp.jd3.b2":
-      "Modernização de ERP legado (Delphi/SQL Server) migrando módulos para .NET/C#",
+      "Arquitetura full stack (React, Node.js, .NET/C#, PostgreSQL e MongoDB), incluindo migração de sistemas legados",
     "exp.jd3.b3": "Validação de usabilidade presencial com usuários finais de sistemas de ERP, PCP e WMS",
     "exp.jd3.b4": "Aplicativo desenvolvido adotado por mais de 3.000 usuários, com menos de 5% de defeitos pós-lançamento",
 
@@ -136,6 +137,7 @@ export const translations = {
     "hero.role": "Software Engineer · Front-End & Full Stack",
     "hero.lede":
       "I build interfaces and systems that keep running well after launch day. 10+ years across front-end, architecture and integrations that need to actually work.",
+    "hero.status": "Open to new opportunities",
     "hero.ctaEmail": "Send an email",
 
     "stat.years": "years of experience",
@@ -158,7 +160,8 @@ export const translations = {
       "Architecture and front-end development of a quoting system for the automotive sector, built from scratch with React, Vite and TypeScript",
     "exp.gelic.b2": "Design System built from the ground up: components, patterns and documentation in Storybook",
     "exp.gelic.b3": "React Query for data fetching with per-entity caching; complex forms with React Hook Form + Zod/Yup",
-    "exp.gelic.b4": "Migrated authentication to HttpOnly cookies with a custom BFF layer, reducing XSS/CSRF exposure",
+    "exp.gelic.b4":
+      "Migrated authentication to HttpOnly cookies with SameSite, reducing XSS/CSRF exposure, plus a Content Security Policy",
     "exp.gelic.b5": "Main front-end technical reference for the team; occasional .NET Core backend work",
 
     "exp.hap.role": "Technical Lead, Software Engineering",
@@ -173,7 +176,8 @@ export const translations = {
 
     "exp.jd3.role": "Junior → Mid → Senior · 8 years",
     "exp.jd3.b1": "Full career progression within the same company, most of it as the company's only developer",
-    "exp.jd3.b2": "Modernized a legacy ERP (Delphi/SQL Server), migrating modules to .NET/C#",
+    "exp.jd3.b2":
+      "Full stack architecture (React, Node.js, .NET/C#, PostgreSQL and MongoDB), including legacy system migrations",
     "exp.jd3.b3":
       "On-site usability validation with end users of ERP, production planning and warehouse management systems",
     "exp.jd3.b4": "Built an application adopted by more than 3,000 users, with under 5% post-launch defects",

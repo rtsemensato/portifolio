@@ -37,6 +37,6 @@ export const experience: ExperienceEntry[] = [
     endYear: "2023",
     roleKey: "exp.jd3.role",
     bulletKeys: ["exp.jd3.b1", "exp.jd3.b2", "exp.jd3.b3", "exp.jd3.b4"],
-    tags: [".NET · C#", "Delphi", "SQL Server", "AWS S3"],
+    tags: ["React", "Node.js", ".NET · C#", "PostgreSQL", "MongoDB"],
   },
 ];
