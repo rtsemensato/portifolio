@@ -18,7 +18,6 @@ export const translations = {
     "hero.role": "Engenheiro de Software · Front-End & Full Stack",
     "hero.lede":
       "Construo interfaces e sistemas que continuam de pé bem depois do deploy. 10+ anos entre front-end, arquitetura e integrações que precisam funcionar de verdade.",
-    "hero.status": "Disponível para novas oportunidades",
     "hero.ctaEmail": "Enviar e-mail",
 
     "stat.years": "anos de experiência",
@@ -29,7 +28,7 @@ export const translations = {
     "about.eyebrow": "// sobre",
     "about.title": "Como eu trabalho",
     "about.p1":
-      "Sou desenvolvedor full stack há mais de 10 anos, com raiz forte em front-end (React, TypeScript, Next.js) e trânsito real em back-end (.NET, Node.js, Java/Spring Boot). Passei a maior parte da carreira em times pequenos e enxutos, o que significa que aprendi a fazer de tudo um pouco: arquitetura, decisões técnicas, deploy, e também sentar do lado do usuário final pra entender se o sistema resolve o problema dele de verdade.",
+      "Sou desenvolvedor full stack há mais de 10 anos, com raiz forte em front-end (React, TypeScript, Next.js) e trânsito real em back-end (.NET, Node.js). Passei a maior parte da carreira em times pequenos e enxutos, o que significa que aprendi a fazer de tudo um pouco: arquitetura, decisões técnicas, deploy, e também sentar do lado do usuário final pra entender se o sistema resolve o problema dele de verdade.",
     "about.p2":
       "Gosto de pegar código legado e transformar em algo sustentável, e de construir do zero quando é isso que o projeto pede. Uso IA (Claude, Cursor) como parte do meu fluxo de trabalho todos os dias, sempre revisando e validando o que é gerado, porque quem assina o código sou eu.",
 
@@ -59,7 +58,7 @@ export const translations = {
     "exp.jd3.role": "Júnior → Pleno → Sênior · 8 anos",
     "exp.jd3.b1": "Trajetória completa dentro da mesma empresa, boa parte do período como único desenvolvedor",
     "exp.jd3.b2":
-      "Modernização de ERP legado (Delphi/SQL Server) migrando módulos para Java 17 + Spring Boot e .NET/C#",
+      "Modernização de ERP legado (Delphi/SQL Server) migrando módulos para .NET/C#",
     "exp.jd3.b3": "Validação de usabilidade presencial com usuários finais de sistemas de ERP, PCP e WMS",
     "exp.jd3.b4": "Aplicativo desenvolvido adotado por mais de 3.000 usuários, com menos de 5% de defeitos pós-lançamento",
 
@@ -137,7 +136,6 @@ export const translations = {
     "hero.role": "Software Engineer · Front-End & Full Stack",
     "hero.lede":
       "I build interfaces and systems that keep running well after launch day. 10+ years across front-end, architecture and integrations that need to actually work.",
-    "hero.status": "Open to new opportunities",
     "hero.ctaEmail": "Send an email",
 
     "stat.years": "years of experience",
@@ -148,7 +146,7 @@ export const translations = {
     "about.eyebrow": "// about",
     "about.title": "How I work",
     "about.p1":
-      "I've been a full stack developer for over 10 years, with a strong root in front-end (React, TypeScript, Next.js) and real hands-on back-end work (.NET, Node.js, Java/Spring Boot). Most of my career was spent on small, lean teams, which meant learning a bit of everything: architecture, technical decisions, deployment, and sitting with end users to see if the system actually solves their problem.",
+      "I've been a full stack developer for over 10 years, with a strong root in front-end (React, TypeScript, Next.js) and real hands-on back-end work (.NET, Node.js). Most of my career was spent on small, lean teams, which meant learning a bit of everything: architecture, technical decisions, deployment, and sitting with end users to see if the system actually solves their problem.",
     "about.p2":
       "I like turning legacy code into something sustainable, and building from scratch when that's what the project needs. I use AI (Claude, Cursor) as part of my daily workflow, always reviewing and validating what gets generated, because I'm the one who signs off on the code.",
 
@@ -175,7 +173,7 @@ export const translations = {
 
     "exp.jd3.role": "Junior → Mid → Senior · 8 years",
     "exp.jd3.b1": "Full career progression within the same company, most of it as the company's only developer",
-    "exp.jd3.b2": "Modernized a legacy ERP (Delphi/SQL Server), migrating modules to Java 17 + Spring Boot and .NET/C#",
+    "exp.jd3.b2": "Modernized a legacy ERP (Delphi/SQL Server), migrating modules to .NET/C#",
     "exp.jd3.b3":
       "On-site usability validation with end users of ERP, production planning and warehouse management systems",
     "exp.jd3.b4": "Built an application adopted by more than 3,000 users, with under 5% post-launch defects",

@@ -15,11 +15,6 @@ export default function Hero() {
         <p className="hero-role">{t("hero.role")}</p>
         <p className="hero-lede">{t("hero.lede")}</p>
 
-        <div className="status-badge">
-          <span className="dot dot-live" aria-hidden="true"></span>
-          <span>{t("hero.status")}</span>
-        </div>
-
         <div className="cta-row">
           <a className="btn btn-primary" href="mailto:rtestonsemensato@gmail.com">
             {t("hero.ctaEmail")}

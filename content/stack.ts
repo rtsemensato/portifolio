@@ -35,7 +35,7 @@ export const stackGroups: StackGroup[] = [
       },
       {
         titleKey: "stack.backend",
-        tags: ["Node.js", "Express", ".NET / .NET 9", "C#", "Entity Framework", "Java 17", "Spring Boot"],
+        tags: ["Node.js", "Express", ".NET / .NET 9", "C#", "Entity Framework"],
       },
       {
         titleKey: "stack.data",
