@@ -65,7 +65,7 @@ export const translations = {
 
     "stack.eyebrow": "// stack",
     "stack.title": "Tecnologias que uso de verdade",
-    "stack.sub": "Sem lista inflada. Só o que eu efetivamente uso ou já usei em produção.",
+    "stack.sub": "Nada de encher linguiça: é só o que eu uso ou já usei em produção.",
     "stack.frontend": "Front-end",
     "stack.backend": "Back-end",
     "stack.data": "Dados",
@@ -120,7 +120,6 @@ export const translations = {
       "Aberto a oportunidades remotas, PJ ou CLT, em times que valorizam arquitetura bem pensada e código que dura.",
     "contact.location": "Jandaia do Sul, PR. Disponível para remoto",
 
-    "footer.note": "Currículo adaptado sob pedido, conforme a vaga.",
   },
   en: {
     "nav.about": "About",
@@ -178,7 +177,7 @@ export const translations = {
 
     "stack.eyebrow": "// stack",
     "stack.title": "Technologies I actually use",
-    "stack.sub": "No inflated list. Just what I genuinely use or have used in production.",
+    "stack.sub": "No padding here: just what I actually use, or have used, in production.",
     "stack.frontend": "Front-end",
     "stack.backend": "Back-end",
     "stack.data": "Data",
@@ -233,7 +232,6 @@ export const translations = {
       "Open to remote opportunities, contract or full-time, on teams that value thoughtful architecture and code that lasts.",
     "contact.location": "Jandaia do Sul, Brazil. Available for remote work",
 
-    "footer.note": "Resume tailored on request, depending on the role.",
   },
 } satisfies Record<"pt" | "en", Record<string, string>>;
 
