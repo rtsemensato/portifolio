@@ -105,6 +105,9 @@ export const translations = {
     "proj.expensetracker.sub": "Controle de gastos offline-first, com sincronização por \"mais recente vence\"",
     "proj.expensetracker.desc":
       "App nativo em React Native (Expo): toda despesa é salva no SQLite do dispositivo antes de qualquer coisa, sincronizando com o servidor quando a conexão volta ou sob demanda. A versão web abaixo roda o mesmo código como vitrine de teste, sem precisar instalar nada, mas sem a garantia de funcionar sem internet, que é exclusiva do app nativo (APK abaixo). Conflito entre dispositivos resolvido por \"mais recente vence\", testado nos dois lados (client e servidor). Servidor de sincronização em Node.js e Express.",
+    "proj.ridedispatch.sub": "Sistema de despacho de corridas com motor de pareamento em Go",
+    "proj.ridedispatch.desc":
+      "API em Laravel (PHP) cuida do cadastro de motoristas e corridas; um serviço à parte em Go mantém a localização de cada motorista em memória (protegida por sync.RWMutex) e resolve o pareamento pelo mais próximo via fórmula de Haversine, sob concorrência real. Os dois se comunicam por REST, e a API degrada graciosamente se o Go cair (a corrida fica \"sem motorista\", nunca um erro 500). Frontend em TypeScript puro com Leaflet, mostrando o pareamento ao vivo no mapa. 16 testes PHPUnit e 18 testes Go, incluindo um teste de concorrência rodado com -race.",
     "proj.viewCode": "Ver código",
     "proj.viewLive": "Ver ao vivo",
     "proj.downloadApk": "Baixar APK (Android)",
@@ -215,6 +218,9 @@ export const translations = {
     "proj.expensetracker.sub": "Offline-first expense tracker with last-write-wins sync",
     "proj.expensetracker.desc":
       "Native app in React Native (Expo): every expense is saved to the device's SQLite before anything else, syncing with the server once connectivity returns or on demand. The web version below runs the same code as a no-install preview, but without the offline guarantee, which is exclusive to the native app (APK below). Conflicts between devices resolved by last-write-wins, tested on both sides (client and server). Sync server in Node.js and Express.",
+    "proj.ridedispatch.sub": "Ride-dispatch system with a Go-based real-time matching engine",
+    "proj.ridedispatch.desc":
+      "A Laravel (PHP) API handles driver and ride records; a separate Go service keeps each driver's location in memory (guarded by sync.RWMutex) and resolves nearest-driver matching via the Haversine formula under real concurrency. The two talk over REST, and the API degrades gracefully if the Go service goes down (a ride is marked \"unmatched\", never a 500). Plain TypeScript frontend with Leaflet, showing matching happen live on the map. 16 PHPUnit tests and 18 Go tests, including a concurrency test run with -race.",
     "proj.viewCode": "View code",
     "proj.downloadApk": "Download APK (Android)",
     "proj.androidOnlyHint": "Android only for now: an iOS build would require a paid Apple developer account.",

@@ -105,4 +105,14 @@ export const projects: Project[] = [
     liveUrl: "https://expense-tracker-six-lime-33.vercel.app",
     androidApkUrl: "https://github.com/rtsemensato/expense-tracker/releases/latest",
   },
+  {
+    slug: "ride-dispatch",
+    title: "Ride Dispatch",
+    subtitleKey: "proj.ridedispatch.sub",
+    descriptionKey: "proj.ridedispatch.desc",
+    tags: ["Laravel", "PHP", "Go", "PostgreSQL", "TypeScript"],
+    isPrivate: false,
+    repoUrl: "https://github.com/rtsemensato/ride-dispatch",
+    liveUrl: "https://ride-dispatch-lyart.vercel.app",
+  },
 ];
