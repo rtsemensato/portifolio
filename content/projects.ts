@@ -12,10 +12,9 @@ export type Project = {
   repoUrl?: string;
   /** URL do app hospedado, quando houver uma demo rodando. */
   liveUrl?: string;
-  /** Só pra projetos de app nativo: QR code (SVG em /public) que abre o
-   *  app de verdade no Expo Go, e o link exp:// equivalente (fallback de
-   *  texto/href, pra quem não conseguir escanear). */
-  expoGoQr?: { imageSrc: string; deepLink: string };
+  /** Só pra projetos de app nativo distribuídos como APK Android
+   *  standalone (não Expo Go): link direto pra baixar o instalável. */
+  androidApkUrl?: string;
 };
 
 export const projects: Project[] = [
@@ -104,10 +103,6 @@ export const projects: Project[] = [
     isPrivate: false,
     repoUrl: "https://github.com/rtsemensato/expense-tracker",
     liveUrl: "https://expense-tracker-six-lime-33.vercel.app",
-    expoGoQr: {
-      imageSrc: "/expo-go/gastos-offline.svg",
-      deepLink:
-        "exp://u.expo.dev/05e9a908-85e2-47d3-828c-8ef7ec748724?runtime-version=exposdk%3A54.0.0&channel-name=production",
-    },
+    androidApkUrl: "https://github.com/rtsemensato/expense-tracker/releases/latest",
   },
 ];

@@ -1,13 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import { useLang } from "@/lib/LangContext";
 import Reveal from "./Reveal";
 import { projects } from "@/content/projects";
 
 export default function Projects() {
   const { t } = useLang();
-  const [expandedQr, setExpandedQr] = useState<string | null>(null);
 
   return (
     <Reveal as="section" className="section" id="projects">
@@ -31,7 +29,7 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-              {(project.repoUrl || project.liveUrl || project.expoGoQr) && (
+              {(project.repoUrl || project.liveUrl || project.androidApkUrl) && (
                 <div className="project-links">
                   {project.repoUrl && (
                     <a className="project-link" href={project.repoUrl} target="_blank" rel="noopener">
@@ -43,36 +41,14 @@ export default function Projects() {
                       {t("proj.viewLive")} ↗
                     </a>
                   )}
-                  {project.expoGoQr && (
-                    <button
-                      type="button"
-                      className="project-link project-link-button"
-                      onClick={() => setExpandedQr(expandedQr === project.slug ? null : project.slug)}
-                      aria-expanded={expandedQr === project.slug}
-                    >
-                      {t("proj.tryExpoGo")} {expandedQr === project.slug ? "▲" : "↗"}
-                    </button>
+                  {project.androidApkUrl && (
+                    <a className="project-link" href={project.androidApkUrl} target="_blank" rel="noopener">
+                      {t("proj.downloadApk")} ↗
+                    </a>
                   )}
                 </div>
               )}
-              {project.expoGoQr && expandedQr === project.slug && (
-                <div className="project-qr">
-                  <p className="project-qr-hint">{t("proj.expoGoHint")}</p>
-                  <a className="project-link" href="https://expo.dev/go" target="_blank" rel="noopener">
-                    {t("proj.expoGoDownload")} ↗
-                  </a>
-                  {/* <img> comum, não next/image: é um SVG estático já
-                      vetorial, e o otimizador do next/image recusa SVG por
-                      padrão (retorna 400) a menos que
-                      images.dangerouslyAllowSVG seja ligado no
-                      next.config, o que não vale a pena só por isso. */}
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img src={project.expoGoQr.imageSrc} alt={t("proj.tryExpoGo")} width={140} height={140} />
-                  <a className="project-link" href={project.expoGoQr.deepLink}>
-                    {project.expoGoQr.deepLink}
-                  </a>
-                </div>
-              )}
+              {project.androidApkUrl && <p className="project-qr-hint">{t("proj.androidOnlyHint")}</p>}
             </article>
           ))}
         </div>

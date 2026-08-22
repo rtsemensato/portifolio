@@ -504,34 +504,10 @@
 .project-link:hover {
   color: var(--color-teal);
 }
-.project-link-button {
-  background: none;
-  border: none;
-  padding: 0;
-  cursor: pointer;
-}
-.project-qr {
-  margin-top: 16px;
-  padding-top: 16px;
-  border-top: 1px solid var(--color-line);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-}
-.project-qr img {
-  border-radius: 8px;
-  background: #fff;
-  padding: 6px;
-}
 .project-qr-hint {
   color: var(--color-mute-2);
   font-size: 0.8rem;
-  margin: 0;
-}
-.project-qr .project-link {
-  word-break: break-all;
-  font-size: 0.72rem;
+  margin-top: 10px;
 }
 .project-note {
   color: var(--color-mute-2);

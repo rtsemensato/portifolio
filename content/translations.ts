@@ -104,12 +104,11 @@ export const translations = {
       "API em .NET 9 (Minimal API) com arquitetura em camadas (Domain/Application/Infrastructure): a regra de não permitir dois agendamentos do mesmo profissional no mesmo horário mora isolada no domínio, coberta por testes unitários e de integração com Testcontainers. EF Core + PostgreSQL, FluentValidation, documentação OpenAPI via Swagger. Front-end em Next.js com uma grade de horários que deixa tentar agendar em cima de um horário ocupado, pra ver a API recusar de verdade.",
     "proj.expensetracker.sub": "Controle de gastos offline-first, com sincronização por \"mais recente vence\"",
     "proj.expensetracker.desc":
-      "App nativo em React Native (Expo): toda despesa é salva no SQLite do dispositivo antes de qualquer coisa, sincronizando com o servidor quando a conexão volta ou sob demanda. A versão web abaixo roda o mesmo código como vitrine de teste, sem precisar instalar nada, mas sem a garantia de funcionar sem internet, que é exclusiva do app nativo (QR code abaixo). Conflito entre dispositivos resolvido por \"mais recente vence\", testado nos dois lados (client e servidor). Servidor de sincronização em Node.js e Express.",
+      "App nativo em React Native (Expo): toda despesa é salva no SQLite do dispositivo antes de qualquer coisa, sincronizando com o servidor quando a conexão volta ou sob demanda. A versão web abaixo roda o mesmo código como vitrine de teste, sem precisar instalar nada, mas sem a garantia de funcionar sem internet, que é exclusiva do app nativo (APK abaixo). Conflito entre dispositivos resolvido por \"mais recente vence\", testado nos dois lados (client e servidor). Servidor de sincronização em Node.js e Express.",
     "proj.viewCode": "Ver código",
     "proj.viewLive": "Ver ao vivo",
-    "proj.tryExpoGo": "Testar no Expo Go",
-    "proj.expoGoHint": "Precisa do app Expo Go instalado (grátis, iOS e Android). Com ele aberto, escaneia o QR code abaixo.",
-    "proj.expoGoDownload": "Não tem o Expo Go ainda? Baixar",
+    "proj.downloadApk": "Baixar APK (Android)",
+    "proj.androidOnlyHint": "Só Android por enquanto: build pra iOS exigiria conta paga de desenvolvedor Apple.",
     "proj.note": "Furafila e ObraLog têm repositório privado, mas posso mostrar o código em uma conversa.",
 
     "contact.eyebrow": "// contato",
@@ -215,11 +214,10 @@ export const translations = {
       "API in .NET 9 (Minimal API) with a layered architecture (Domain/Application/Infrastructure): the rule preventing two overlapping appointments for the same professional lives isolated in the domain layer, covered by unit and Testcontainers integration tests. EF Core + PostgreSQL, FluentValidation, OpenAPI docs via Swagger. Next.js front-end with an interactive time-slot grid that lets you try booking an already-taken slot, to see the API reject it for real.",
     "proj.expensetracker.sub": "Offline-first expense tracker with last-write-wins sync",
     "proj.expensetracker.desc":
-      "Native app in React Native (Expo): every expense is saved to the device's SQLite before anything else, syncing with the server once connectivity returns or on demand. The web version below runs the same code as a no-install preview, but without the offline guarantee, which is exclusive to the native app (QR code below). Conflicts between devices resolved by last-write-wins, tested on both sides (client and server). Sync server in Node.js and Express.",
+      "Native app in React Native (Expo): every expense is saved to the device's SQLite before anything else, syncing with the server once connectivity returns or on demand. The web version below runs the same code as a no-install preview, but without the offline guarantee, which is exclusive to the native app (APK below). Conflicts between devices resolved by last-write-wins, tested on both sides (client and server). Sync server in Node.js and Express.",
     "proj.viewCode": "View code",
-    "proj.tryExpoGo": "Try it on Expo Go",
-    "proj.expoGoHint": "Requires the Expo Go app (free, iOS and Android). With it open, scan the QR code below.",
-    "proj.expoGoDownload": "Don't have Expo Go yet? Get it",
+    "proj.downloadApk": "Download APK (Android)",
+    "proj.androidOnlyHint": "Android only for now: an iOS build would require a paid Apple developer account.",
     "proj.viewLive": "View live",
     "proj.note": "Furafila and ObraLog have private repositories, but I'm happy to walk through the code in a conversation.",
 
